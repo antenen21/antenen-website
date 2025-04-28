@@ -1,4 +1,5 @@
-import { useState } from "react"
+
+import LoginPage from "./assets/components/pages/LoginPage"
 
 function App(){
   /// state (etat, données)
@@ -7,11 +8,7 @@ function App(){
 
 
   /// render
-  return (
-    <div>
-      <h1>Login Page</h1>{" "}
-    </div>
-  );
+  return <LoginPage />
 }
 
 export default App
