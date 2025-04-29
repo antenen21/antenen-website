@@ -18,7 +18,7 @@ export default function LoginForm() {
     /// Render
     return (
         <form action="submit" onSubmit={handleSubmit}>
-        <h1>Bienvenue chez nous!</h1>
+        <h1>Bienvenue chez Antenen Gebäudetechnik Sarl</h1>
         <br />
         <h2>Connectez-vous</h2>
         <input
