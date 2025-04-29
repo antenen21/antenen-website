@@ -1,5 +1,7 @@
+import { Route, Routes } from "react-router"
 import LoginPage from "./assets/components/pages/login/LoginPage"
-
+import OrderPage from "./assets/components/pages/order/OrderPage"
+import ErrorPage from "./assets/components/pages/error/ErrorPage"
 
 
 function App(){
@@ -9,7 +11,13 @@ function App(){
 
 
   /// render
-  return <LoginPage />
+  return (
+    <Routes>
+      <Route path="/" element={<LoginPage />} />
+      <Route path="/order" element={<OrderPage />} />
+      <Route path="*" element={<ErrorPage />} />
+    </Routes>
+  )
 }
 
 export default App
