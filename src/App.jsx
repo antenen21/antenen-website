@@ -1,5 +1,6 @@
+import LoginPage from "./assets/components/pages/login/LoginPage"
 
-import LoginPage from "./assets/components/pages/LoginPage"
+
 
 function App(){
   /// state (etat, données)
